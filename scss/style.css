@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 3px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 40px;
+  height: 3.7rem;
+}
+
+.nav h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.innerContainer {
+  background: #97c5eb;
+}
+
+.innerContainer .heroImage {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.innerContainer .heroImage img {
+  width: 80%;
+  height: 370px;
+  margin: 2rem;
+}
+
+.topDesign {
+  height: 600px;
+  background: #fff;
+  position: relative;
+}
+
+.topDesign img {
+  position: absolute;
+  top: 3.6rem;
+  left: 2rem;
+  width: 140px;
+  border-radius: 50%;
+}
+
+.topDesign h3 {
+  position: absolute;
+  top: 19rem;
+  left: 2.3rem;
+  width: 290px;
+  font-weight: 400;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+
+.topDesign .fa-chevron-right {
+  position: absolute;
+  top: 27rem;
+  left: 4rem;
+  font-size: 5rem;
+  color: #797878;
+}
+/*# sourceMappingURL=style.css.map */

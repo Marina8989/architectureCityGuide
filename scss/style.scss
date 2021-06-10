@@ -1,0 +1,72 @@
+$primary-color: rgb(151, 197, 235);
+$secondary-color: #797878;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 3px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    height: 3.7rem;
+
+    h1{
+        font-size: 32px;
+        font-weight: 400;
+    }
+}
+
+.innerContainer{
+    background: $primary-color;
+
+    .heroImage{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+     img{
+        width: 80%;
+        height: 370px;
+        margin: 2rem;
+    }
+
+  }
+
+}
+
+.topDesign{
+    height: 600px;
+    background: #fff;
+    position: relative;
+
+  img{
+      position: absolute;
+      top: 3.6rem;
+      left: 2rem;
+      width: 140px;
+      border-radius: 50%;
+  }  
+
+  h3{
+      position: absolute;
+      top: 19rem;
+      left: 2.3rem;
+      width: 290px;
+      font-weight: 400;
+      font-size: 1.7rem;
+      letter-spacing: 1px;
+  }
+  .fa-chevron-right{
+      position: absolute;
+      top: 27rem;
+      left: 4rem;
+      font-size: 5rem;
+      color: $secondary-color;
+  }
+}
